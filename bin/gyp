@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-var gyp = require('../');
+const gyp = require('../');
 
 // TEMPORARY MEASURE
 process.stdout._handle.setBlocking(true);
-var code = gyp.main(process.argv.slice(1));
+const code = gyp.main(process.argv.slice(1));
 if (code === null)
   return;
 process.exit(code);

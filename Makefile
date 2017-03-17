@@ -1,5 +1,3 @@
-ESLINT ?= ./node_modules/.bin/eslint
-
 SRC_FILES=
 SRC_FILES+= src/*.js
 SRC_FILES+= src/**/*.js
