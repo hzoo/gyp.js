@@ -23,9 +23,9 @@
   "author": "Fedor Indutny <fedor@indutny.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-preset-env": "^1.2.2",
-    "babel-register": "^6.9.0",
+    "babel-cli": "7.0.0-alpha.18",
+    "babel-preset-env": "2.0.0-alpha.18",
+    "babel-register": "7.0.0-alpha.18",
     "debug": "^2.6.1",
     "eslint": "^2.12.0",
     "mocha": "^2.5.3",
